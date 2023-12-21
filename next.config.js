@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    env: {
+        ENDPOINT_URL: 'my-value',
+    }
+}
 
-module.exports = nextConfig
+export default nextConfig

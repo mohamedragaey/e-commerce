@@ -1,10 +1,10 @@
 {
-    "search.exclude": {
-        "**/node_modules": false
-    },
-    "editor.codeActionsOnSave": {
-        "source.addMissingImports": true,
-        "source.organizeImports": true
-    },
-    "typescript.preferences.importModuleSpecifier": "relative"
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "typescript.preferences.importModuleSpecifier": "relative"
 }
